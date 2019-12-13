@@ -1,0 +1,2 @@
+# SzGyMobilApp
+Mobil alkalmazásfejlesztés
