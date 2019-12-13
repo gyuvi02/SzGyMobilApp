@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gyula.kepek">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Képnézegető"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="com.gyula.kepek.MainActivity"
+            android:label="Képnézegető">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gyula.kepek.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName="com.gyula.kepek.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gyula.kepek.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.gyula.kepek.KepReszletek"
+            android:label="@string/title_activity_photo_details"
+            android:parentActivityName="com.gyula.kepek.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gyula.kepek.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

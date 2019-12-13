@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Képböngésző</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="title_activity_search">Keresés</string>
+    <string name="title_activity_photo_details">Részletek</string>
+    <string name="browse_image_description">A letöltött kép</string>
+    <string name="kep_title_text">Cím: %s</string>
+/    <string name="action_search">Keresés</string>
+    <string name="searchable_hint">Írja be a keresőkifejezést</string>
+    <string name="empty_photo">Nem található a keresőkifejezésnek megfelelő kép.\n\nPróbálja meg a keresővel újra.</string>
+</resources>

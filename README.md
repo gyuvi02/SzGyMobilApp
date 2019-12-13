@@ -1,2 +1,3 @@
 # SzGyMobilApp
-Mobil alkalmazásfejlesztés
+Mobil alkalmazásfejlesztés beadandó
+levelező PTI
